@@ -1,0 +1,1230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>MaxWay - Birinchi Milliy Fast Food</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="../../Lesson 18. MaxWay/sass/main.scss">
+</head>
+<body>
+
+<div class="top">
+    <nav class="navbar navbar-expand-md navbar-light">
+        <div class="container">
+
+            <a href="#" class="navbar-brand"><img src="asssets/images/logo.png" alt="Error"></a>
+
+            <button class="navbar-toggler border-0" data-toggle="collapse" data-target="#menu">
+                <img src="asssets/icons/burger.svg" alt="Error">
+            </button>
+
+            <div class="collapse navbar-collapse" id="menu">
+                <div class="col-60 d-flex justify-content-md-between align-items-center">
+                    <div>
+                        <!--                    <img src="asssets/images/logo.png" alt="Error">-->
+                    </div>
+                    <div>
+                        <ul class="navbar-nav">
+                            <li class="nav-item"><a href="#" class="nav-link">Menyu</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link">Bolalar uchun</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link">Filiallar</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-40 d-flex justify-content-md-end align-items-center">
+                    <div class="d-flex align-items-center">
+                        <div>
+                            <span class="icon icon-phone"></span>
+                        </div>
+                        <div>
+                            <a href="tel:+998712005401" class="text-decoration-none">
+                                <p class="mb-0 font-inter-regular text-white">(+99871)</p>
+                                <h5 class="mb-0 font-inter-bold text-white">200-54-00</h5>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="line"></div>
+
+                    <div class="d-flex align-items-center">
+                        <div>
+                            <span class="icon icon-basket"></span>
+                        </div>
+                        <div>
+                            <h5 class="mb-0 text-white">Korzina</h5>
+                            <p class="mb-0 font-inter-regular text-white">125,400 UZS</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </nav>
+
+    <header>
+        <img src="asssets/images/big-burger.png" class="w-100 d-sm-none" alt="">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-6 col-lg-8 col-sm-10" >
+                    <h1 class="mb-0 font-inter-bold">
+                        Siz izlagan mazzali ta’mlar
+                    </h1>
+                    <p class="mb-0 font-inter-regular">
+                        When an unknown printer took a galley of type
+                        scrambled it to make a type specimen
+                    </p>
+                    <div class="row row-mobile">
+                        <div class="col-sm-6">
+                            <div class="card yellow border-0">
+                                <div class="card-body">
+                                    <button type="button" class="btn">
+                                        <img src="asssets/icons/fire.svg" alt=""> Yangi
+                                    </button>
+                                    <h2 class="mb-0 font-inter-bold">PIT</h2>
+                                    <h2 class="mb-0 font-inter-bold ml-2">-SA</h2>
+                                </div>
+                                <img src="asssets/images/pizza-half.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="card purple border-0">
+                                <div class="card-body">
+                                    <button type="button" class="btn">
+                                        <img src="asssets/icons/rocket.svg" alt=""> Ko'p sotilgan
+                                    </button>
+                                    <h2 class="mb-0 font-inter-bold ml-3">KOM</h2>
+                                    <h2 class="mb-0 font-inter-bold">-BO</h2>
+                                </div>
+                                <img src="asssets/images/kombo-half.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="asssets/images/big-burger.png" alt="" class="big-burger d-sm-block d-none">
+    </header>
+
+</div>
+
+<main>
+    <div class="container">
+        <div class="line"></div>
+
+        <ul class="nav">
+            <li class="nav-item"><a href="#all" data-toggle="tab" class="nav-link active">Barchasi</a></li>
+            <li class="nav-item"><a href="#pizza" data-toggle="tab" class="nav-link">Pitsa</a></li>
+            <li class="nav-item"><a href="#burger" data-toggle="tab" class="nav-link">Burger</a></li>
+            <li class="nav-item"><a href="#kombo" data-toggle="tab" class="nav-link">Kombo</a></li>
+            <li class="nav-item"><a href="#salat" data-toggle="tab" class="nav-link">Salat</a></li>
+            <li class="nav-item"><a href="#sweets" data-toggle="tab" class="nav-link">Shirinliklar</a></li>
+            <li class="nav-item"><a href="#drinks" data-toggle="tab" class="nav-link">Ichimlilar</a></li>
+            <li class="nav-item ml-auto"><a href="#" class="nav-link"><span class="icon icon-filter"></span> Filter</a></li>
+        </ul>
+        <div class="filter"><a href="#" class="nav-link d-sm-none"><span class="icon icon-filter d-sm-none"></span>Filter</a></div>
+
+        <div class="tab-content">
+            <div class="tab-pane active" id="all">
+                <section>
+                    <h1 class="mb-0 font-inter-bold">Pitsa</h1>
+
+                    <div class="row justify-content-lg-start justify-content-center">
+                        <div class="col-lg-6 col-md-10">
+                            <div class="card">
+                                <div class="card-body d-flex">
+                                    <div>
+                                        <img src="asssets/images/pizza/gavaya.png" class="card-photo" alt="Error">
+                                    </div>
+                                    <div>
+                                        <h3 class="mb-0 font-inter-medium">Gavaya <img src="asssets/icons/cheese.svg"
+                                                                                       alt="Error"></h3>
+                                        <p class="mb-0 font-inter-regular">Горячая закуска с митболами
+                                            из говядины, томатами,
+                                            моцареллой и соусом чипотле
+                                        </p>
+
+                                        <h2 class="mb-0 font-inter-bold">45,000 UZS</h2>
+                                    </div>
+                                    <div class="fire"><img src="asssets/icons/fire.svg" alt="Error"></div>
+                                    <button type="button" class="btn"><span class="icon icon-plus bg-white"></span></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-10">
+                            <div class="card">
+                                <div class="card-body d-flex">
+                                    <div>
+                                        <img src="asssets/images/pizza/mexica.png" class="card-photo" alt="Error">
+                                    </div>
+                                    <div>
+                                        <h3 class="mb-0 font-inter-medium">Mexica<img src="asssets/icons/pepper.svg"
+                                                                                       alt="Error"></h3>
+                                        <p class="mb-0 font-inter-regular">Горячая закуска с митболами
+                                            из говядины, томатами,
+                                            моцареллой и соусом чипотле
+                                        </p>
+
+                                        <h2 class="mb-0 font-inter-bold">53,000 UZS</h2>
+                                    </div>
+                                    <div class="fire"><img src="asssets/icons/fire.svg" alt="Error"></div>
+                                    <button type="button" class="btn"><span class="icon icon-plus bg-white"></span></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-10">
+                            <div class="card">
+                                <div class="card-body d-flex">
+                                    <div>
+                                        <img src="asssets/images/pizza/hot-achchiko.png" class="card-photo" alt="Error">
+                                    </div>
+                                    <div>
+                                        <h3 class="mb-0 font-inter-medium">Hot achchiko <img src="asssets/icons/leaf.svg"
+                                                                                       alt="Error"></h3>
+                                        <p class="mb-0 font-inter-regular">Горячая закуска с митболами
+                                            из говядины, томатами,
+                                            моцареллой и соусом чипотле
+                                        </p>
+
+                                        <h2 class="mb-0 font-inter-bold">64,000 UZS</h2>
+                                    </div>
+                                    <button type="button" class="btn"><span class="icon icon-plus bg-white"></span></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-10 d-none d-sm-block">
+                            <div class="card">
+                                <div class="card-body d-flex">
+                                    <div>
+                                        <img src="asssets/images/pizza/mexica2.png" class="card-photo" alt="Error">
+                                    </div>
+                                    <div>
+                                        <h3 class="mb-0 font-inter-medium">Mexica</h3>
+                                        <p class="mb-0 font-inter-regular">Горячая закуска с митболами
+                                            из говядины, томатами,
+                                            моцареллой и соусом чипотле
+                                        </p>
+
+                                        <h2 class="mb-0 font-inter-bold">45,000 UZS</h2>
+                                    </div>
+                                    <button type="button" class="btn"><span class="icon icon-plus bg-white"></span></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-10 d-none d-sm-block">
+                            <div class="card">
+                                <div class="card-body d-flex">
+                                    <div>
+                                        <img src="asssets/images/pizza/hot-achchiko.png" class="card-photo" alt="Error">
+                                    </div>
+                                    <div>
+                                        <h3 class="mb-0 font-inter-medium">Apocalino <img src="asssets/icons/pepper.svg"
+                                                                                          alt="Error"></h3>
+                                        <p class="mb-0 font-inter-regular">Горячая закуска с митболами
+                                            из говядины, томатами,
+                                            моцареллой и соусом чипотле
+                                        </p>
+
+                                        <h2 class="mb-0 font-inter-bold">64,000 UZS</h2>
+                                    </div>
+                                    <button type="button" class="btn"><span class="icon icon-plus bg-white"></span></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-10 d-none d-sm-block">
+                            <div class="card">
+                                <div class="card-body d-flex">
+                                    <div>
+                                        <img src="asssets/images/pizza/mexica2.png" class="card-photo" alt="Error">
+                                    </div>
+                                    <div>
+                                        <h3 class="mb-0 font-inter-medium">Sosiskacho <img src="asssets/icons/leaf.svg"
+                                                                                           alt="Error"></h3>
+                                        <p class="mb-0 font-inter-regular">Горячая закуска с митболами
+                                            из говядины, томатами,
+                                            моцареллой и соусом чипотле
+                                        </p>
+
+                                        <h2 class="mb-0 font-inter-bold">45,000 UZS</h2>
+                                    </div>
+                                    <button type="button" class="btn"><span class="icon icon-plus bg-white"></span></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-10 d-none d-sm-block">
+                            <div class="card">
+                                <div class="card-body d-flex">
+                                    <div>
+                                        <img src="asssets/images/pizza/mexica.png" class="card-photo" alt="Error">
+                                    </div>
+                                    <div>
+                                        <h3 class="mb-0 font-inter-medium">Mexica</h3>
+                                        <p class="mb-0 font-inter-regular">Горячая закуска с митболами
+                                            из говядины, томатами,
+                                            моцареллой и соусом чипотле
+                                        </p>
+
+                                        <h2 class="mb-0 font-inter-bold">53,000 UZS</h2>
+                                    </div>
+                                    <button type="button" class="btn"><span class="icon icon-plus bg-white"></span></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="menu-2 border-0 d-sm-none" data-toggle="collapse" data-target="#menu-2">
+                            Ko'proq ko'rish
+                        </div>
+                        <div class="collapse d-sm-none" id="menu-2">
+                        <div class="col-lg-6 col-md-10">
+                            <div class="card">
+                                <div class="card-body d-flex">
+                                    <div>
+                                        <img src="asssets/images/pizza/mexica2.png" class="card-photo" alt="Error">
+                                    </div>
+                                    <div>
+                                        <h3 class="mb-0 font-inter-medium">Mexica</h3>
+                                        <p class="mb-0 font-inter-regular">Горячая закуска с митболами
+                                            из говядины, томатами,
+                                            моцареллой и соусом чипотле
+                                        </p>
+
+                                        <h2 class="mb-0 font-inter-bold">45,000 UZS</h2>
+                                    </div>
+                                    <button type="button" class="btn"><span class="icon icon-plus bg-white"></span></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-10">
+                            <div class="card">
+                                <div class="card-body d-flex">
+                                    <div>
+                                        <img src="asssets/images/pizza/hot-achchiko.png" class="card-photo" alt="Error">
+                                    </div>
+                                    <div>
+                                        <h3 class="mb-0 font-inter-medium">Apocalino <img src="asssets/icons/pepper.svg"
+                                                                                       alt="Error"></h3>
+                                        <p class="mb-0 font-inter-regular">Горячая закуска с митболами
+                                            из говядины, томатами,
+                                            моцареллой и соусом чипотле
+                                        </p>
+
+                                        <h2 class="mb-0 font-inter-bold">64,000 UZS</h2>
+                                    </div>
+                                    <button type="button" class="btn"><span class="icon icon-plus bg-white"></span></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-10">
+                            <div class="card">
+                                <div class="card-body d-flex">
+                                    <div>
+                                        <img src="asssets/images/pizza/mexica2.png" class="card-photo" alt="Error">
+                                    </div>
+                                    <div>
+                                        <h3 class="mb-0 font-inter-medium">Sosiskacho <img src="asssets/icons/leaf.svg"
+                                                                                       alt="Error"></h3>
+                                        <p class="mb-0 font-inter-regular">Горячая закуска с митболами
+                                            из говядины, томатами,
+                                            моцареллой и соусом чипотле
+                                        </p>
+
+                                        <h2 class="mb-0 font-inter-bold">45,000 UZS</h2>
+                                    </div>
+                                    <button type="button" class="btn"><span class="icon icon-plus bg-white"></span></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-10">
+                            <div class="card">
+                                <div class="card-body d-flex">
+                                    <div>
+                                        <img src="asssets/images/pizza/mexica.png" class="card-photo" alt="Error">
+                                    </div>
+                                    <div>
+                                        <h3 class="mb-0 font-inter-medium">Mexica</h3>
+                                        <p class="mb-0 font-inter-regular">Горячая закуска с митболами
+                                            из говядины, томатами,
+                                            моцареллой и соусом чипотле
+                                        </p>
+
+                                        <h2 class="mb-0 font-inter-bold">53,000 UZS</h2>
+                                    </div>
+                                    <button type="button" class="btn"><span class="icon icon-plus bg-white"></span></button>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <h1 class="mb-0 font-inter-bold">Burger</h1>
+
+                    <div class="row">
+                        <div class="col-lg-6 col-md-10">
+                            <div class="card">
+                                <div class="card-body d-flex">
+                                    <div>
+                                        <img src="asssets/images/burger/burger.png" class="card-photo" alt="Error">
+                                    </div>
+                                    <div>
+                                        <h3 class="mb-0 font-inter-medium">Cheeseburger <img src="asssets/icons/cheese.svg"
+                                                                                       alt="Error"></h3>
+                                        <p class="mb-0 font-inter-regular">Горячая закуска с митболами
+                                            из говядины, томатами,
+                                            моцареллой и соусом чипотле
+                                        </p>
+
+                                        <h2 class="mb-0 font-inter-bold">23,000 UZS</h2>
+                                    </div>
+                                    <div class="fire"><img src="asssets/icons/fire.svg" alt="Error"></div>
+                                    <button type="button" class="btn"><span class="icon icon-plus bg-white"></span></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-10">
+                            <div class="card">
+                                <div class="card-body d-flex">
+                                    <div>
+                                        <img src="asssets/images/burger/burger.png" class="card-photo" alt="Error">
+                                    </div>
+                                    <div>
+                                        <h3 class="mb-0 font-inter-medium">Chili burger <img src="asssets/icons/pepper.svg"
+                                                                                       alt="Error"></h3>
+                                        <p class="mb-0 font-inter-regular">Горячая закуска с митболами
+                                            из говядины, томатами,
+                                            моцареллой и соусом чипотле
+                                        </p>
+
+                                        <h2 class="mb-0 font-inter-bold">23,000 UZS</h2>
+                                    </div>
+                                    <button type="button" class="btn"><span class="icon icon-plus bg-white"></span></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-10">
+                            <div class="card">
+                                <div class="card-body d-flex">
+                                    <div>
+                                        <img src="asssets/images/burger/burger.png" class="card-photo" alt="Error">
+                                    </div>
+                                    <div>
+                                        <h3 class="mb-0 font-inter-medium">Hamburger</h3>
+                                        <p class="mb-0 font-inter-regular">Горячая закуска с митболами
+                                            из говядины, томатами,
+                                            моцареллой и соусом чипотле
+                                        </p>
+
+                                        <h2 class="mb-0 font-inter-bold">23,000 UZS</h2>
+                                    </div>
+                                    <div class="fire"><img src="asssets/icons/fire.svg" alt="Error"></div>
+                                    <button type="button" class="btn"><span class="icon icon-plus bg-white"></span></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-10 d-none d-sm-block">
+                            <div class="card">
+                                <div class="card-body d-flex">
+                                    <div>
+                                        <img src="asssets/images/burger/burger.png" class="card-photo" alt="Error">
+                                    </div>
+                                    <div>
+                                        <h3 class="mb-0 font-inter-medium">Double Burger</h3>
+                                        <p class="mb-0 font-inter-regular">Горячая закуска с митболами
+                                            из говядины, томатами,
+                                            моцареллой и соусом чипотле
+                                        </p>
+
+                                        <h2 class="mb-0 font-inter-bold">23,000 UZS</h2>
+                                    </div>
+                                    <button type="button" class="btn"><span class="icon icon-plus bg-white"></span></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="menu-2 border-0 d-sm-none" data-toggle="collapse" data-target="#menu-3">
+                            Ko'proq ko'rish
+                        </div>
+                        <div class="collapse d-sm-none" id="menu-3">
+                            <div class="col-lg-6 col-md-10">
+                                <div class="card">
+                                    <div class="card-body d-flex">
+                                        <div>
+                                            <img src="asssets/images/burger/burger.png" class="card-photo" alt="Error">
+                                        </div>
+                                        <div>
+                                            <h3 class="mb-0 font-inter-medium">Double Burger</h3>
+                                            <p class="mb-0 font-inter-regular">Горячая закуска с митболами
+                                                из говядины, томатами,
+                                                моцареллой и соусом чипотле
+                                            </p>
+
+                                            <h2 class="mb-0 font-inter-bold">23,000 UZS</h2>
+                                        </div>
+                                        <button type="button" class="btn"><span class="icon icon-plus bg-white"></span></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <h1 class="mb-0 font-inter-bold">Kombo</h1>
+
+                    <div class="row">
+                        <div class="col-lg-6 col-md-10">
+                            <div class="card">
+                                <div class="card-body d-flex">
+                                    <div>
+                                        <img src="asssets/images/kombo/klap-kombo.png" class="card-photo" alt="Error">
+                                    </div>
+                                    <div>
+                                        <h3 class="mb-0 font-inter-medium">Kombo-1</h3>
+                                        <p class="mb-0 font-inter-regular">Горячая закуска с митболами
+                                            из говядины, томатами,
+                                            моцареллой и соусом чипотле
+                                        </p>
+
+                                        <h2 class="mb-0 font-inter-bold">25,000 UZS</h2>
+                                    </div>
+                                    <button type="button" class="btn"><span class="icon icon-plus bg-white"></span></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-10">
+                            <div class="card">
+                                <div class="card-body d-flex">
+                                    <div>
+                                        <img src="asssets/images/kombo/burger-kombo.png" class="card-photo" alt="Error">
+                                    </div>
+                                    <div>
+                                        <h3 class="mb-0 font-inter-medium">Kombo-2</h3>
+                                        <p class="mb-0 font-inter-regular">Горячая закуска с митболами
+                                            из говядины, томатами,
+                                            моцареллой и соусом чипотле
+                                        </p>
+
+                                        <h2 class="mb-0 font-inter-bold">23,000 UZS</h2>
+                                    </div>
+                                    <button type="button" class="btn"><span class="icon icon-plus bg-white"></span></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-10">
+                            <div class="card">
+                                <div class="card-body d-flex">
+                                    <div>
+                                        <img src="asssets/images/kombo/klap-kombo.png" class="card-photo" alt="Error">
+                                    </div>
+                                    <div>
+                                        <h3 class="mb-0 font-inter-medium">Kombo-3</h3>
+                                        <p class="mb-0 font-inter-regular">Горячая закуска с митболами
+                                            из говядины, томатами,
+                                            моцареллой и соусом чипотле
+                                        </p>
+
+                                        <h2 class="mb-0 font-inter-bold">30,000 UZS</h2>
+                                    </div>
+                                    <button type="button" class="btn"><span class="icon icon-plus bg-white"></span></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="menu-2 border-0 d-sm-none" data-toggle="collapse" data-target="#menu-4">
+                            Ko'proq ko'rish
+                        </div>
+                        <div class="collapse d-sm-none" id="menu-4">
+                            <h1 class="mb-0 font-inter-bold text-center my-5">Ushbu bo'limda mahsulot mavjud emas</h1>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <h1 class="mb-0 font-inter-bold">Ichimliklar</h1>
+
+                    <div class="row">
+                        <div class="col-lg-6 col-md-10">
+                            <div class="card">
+                                <div class="card-body d-flex">
+                                    <div>
+                                        <img src="asssets/images/drinks/sprite.png" class="card-photo" alt="Error">
+                                    </div>
+                                    <div>
+                                        <h3 class="mb-0 font-inter-medium">Sprite 1L</h3>
+                                        <p class="mb-0 font-inter-regular">Горячая закуска с митболами
+                                            из говядины, томатами,
+                                            моцареллой и соусом чипотле
+                                        </p>
+
+                                        <h2 class="mb-0 font-inter-bold">6,000 UZS</h2>
+                                    </div>
+                                    <button type="button" class="btn"><span class="icon icon-plus bg-white"></span></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-10">
+                            <div class="card">
+                                <div class="card-body d-flex">
+                                    <div>
+                                        <img src="asssets/images/drinks/cola.png" class="card-photo" alt="Error">
+                                    </div>
+                                    <div>
+                                        <h3 class="mb-0 font-inter-medium">Coca cola 1,5L</h3>
+                                        <p class="mb-0 font-inter-regular">Горячая закуска с митболами
+                                            из говядины, томатами,
+                                            моцареллой и соусом чипотле
+                                        </p>
+
+                                        <h2 class="mb-0 font-inter-bold">9,000 UZS</h2>
+                                    </div>
+                                    <button type="button" class="btn"><span class="icon icon-plus bg-white"></span></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-10">
+                            <div class="card">
+                                <div class="card-body d-flex">
+                                    <div>
+                                        <img src="asssets/images/drinks/fanta.png" class="card-photo" alt="Error">
+                                    </div>
+                                    <div>
+                                        <h3 class="mb-0 font-inter-medium">Fanta 1L</h3>
+                                        <p class="mb-0 font-inter-regular">Горячая закуска с митболами
+                                            из говядины, томатами,
+                                            моцареллой и соусом чипотле
+                                        </p>
+
+                                        <h2 class="mb-0 font-inter-bold">6,000 UZS</h2>
+                                    </div>
+                                    <button type="button" class="btn"><span class="icon icon-plus bg-white"></span></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="menu-2 border-0 d-sm-none" data-toggle="collapse" data-target="#menu-5">
+                            Ko'proq ko'rish
+                        </div>
+                        <div class="collapse d-sm-none" id="menu-5">
+                            <h1 class="mb-0 font-inter-bold text-center my-5">Ushbu bo'limda mahsulot mavjud emas</h1>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div class="tab-pane fade" id="pizza">
+                <section>
+                    <h1 class="mb-0 font-inter-bold">Pitsa</h1>
+
+                    <div class="row justify-content-lg-start justify-content-center">
+                        <div class="col-lg-6 col-md-10">
+                            <div class="card">
+                                <div class="card-body d-flex">
+                                    <div>
+                                        <img src="asssets/images/pizza/gavaya.png" class="card-photo" alt="Error">
+                                    </div>
+                                    <div>
+                                        <h3 class="mb-0 font-inter-medium">Gavaya <img src="asssets/icons/cheese.svg"
+                                                                                       alt="Error"></h3>
+                                        <p class="mb-0 font-inter-regular">Горячая закуска с митболами
+                                            из говядины, томатами,
+                                            моцареллой и соусом чипотле
+                                        </p>
+
+                                        <h2 class="mb-0 font-inter-bold">45,000 UZS</h2>
+                                    </div>
+                                    <div class="fire"><img src="asssets/icons/fire.svg" alt="Error"></div>
+                                    <button type="button" class="btn"><span class="icon icon-plus bg-white"></span></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-10">
+                            <div class="card">
+                                <div class="card-body d-flex">
+                                    <div>
+                                        <img src="asssets/images/pizza/mexica.png" class="card-photo" alt="Error">
+                                    </div>
+                                    <div>
+                                        <h3 class="mb-0 font-inter-medium">Mexica<img src="asssets/icons/pepper.svg"
+                                                                                      alt="Error"></h3>
+                                        <p class="mb-0 font-inter-regular">Горячая закуска с митболами
+                                            из говядины, томатами,
+                                            моцареллой и соусом чипотле
+                                        </p>
+
+                                        <h2 class="mb-0 font-inter-bold">53,000 UZS</h2>
+                                    </div>
+                                    <div class="fire"><img src="asssets/icons/fire.svg" alt="Error"></div>
+                                    <button type="button" class="btn"><span class="icon icon-plus bg-white"></span></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-10">
+                            <div class="card">
+                                <div class="card-body d-flex">
+                                    <div>
+                                        <img src="asssets/images/pizza/hot-achchiko.png" class="card-photo" alt="Error">
+                                    </div>
+                                    <div>
+                                        <h3 class="mb-0 font-inter-medium">Hot achchiko <img src="asssets/icons/leaf.svg"
+                                                                                             alt="Error"></h3>
+                                        <p class="mb-0 font-inter-regular">Горячая закуска с митболами
+                                            из говядины, томатами,
+                                            моцареллой и соусом чипотле
+                                        </p>
+
+                                        <h2 class="mb-0 font-inter-bold">64,000 UZS</h2>
+                                    </div>
+                                    <button type="button" class="btn"><span class="icon icon-plus bg-white"></span></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-10 d-none d-sm-block">
+                            <div class="card">
+                                <div class="card-body d-flex">
+                                    <div>
+                                        <img src="asssets/images/pizza/mexica2.png" class="card-photo" alt="Error">
+                                    </div>
+                                    <div>
+                                        <h3 class="mb-0 font-inter-medium">Mexica</h3>
+                                        <p class="mb-0 font-inter-regular">Горячая закуска с митболами
+                                            из говядины, томатами,
+                                            моцареллой и соусом чипотле
+                                        </p>
+
+                                        <h2 class="mb-0 font-inter-bold">45,000 UZS</h2>
+                                    </div>
+                                    <button type="button" class="btn"><span class="icon icon-plus bg-white"></span></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-10 d-none d-sm-block">
+                            <div class="card">
+                                <div class="card-body d-flex">
+                                    <div>
+                                        <img src="asssets/images/pizza/hot-achchiko.png" class="card-photo" alt="Error">
+                                    </div>
+                                    <div>
+                                        <h3 class="mb-0 font-inter-medium">Apocalino <img src="asssets/icons/pepper.svg"
+                                                                                          alt="Error"></h3>
+                                        <p class="mb-0 font-inter-regular">Горячая закуска с митболами
+                                            из говядины, томатами,
+                                            моцареллой и соусом чипотле
+                                        </p>
+
+                                        <h2 class="mb-0 font-inter-bold">64,000 UZS</h2>
+                                    </div>
+                                    <button type="button" class="btn"><span class="icon icon-plus bg-white"></span></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-10 d-none d-sm-block">
+                            <div class="card">
+                                <div class="card-body d-flex">
+                                    <div>
+                                        <img src="asssets/images/pizza/mexica2.png" class="card-photo" alt="Error">
+                                    </div>
+                                    <div>
+                                        <h3 class="mb-0 font-inter-medium">Sosiskacho <img src="asssets/icons/leaf.svg"
+                                                                                           alt="Error"></h3>
+                                        <p class="mb-0 font-inter-regular">Горячая закуска с митболами
+                                            из говядины, томатами,
+                                            моцареллой и соусом чипотле
+                                        </p>
+
+                                        <h2 class="mb-0 font-inter-bold">45,000 UZS</h2>
+                                    </div>
+                                    <button type="button" class="btn"><span class="icon icon-plus bg-white"></span></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-10 d-none d-sm-block">
+                            <div class="card">
+                                <div class="card-body d-flex">
+                                    <div>
+                                        <img src="asssets/images/pizza/mexica.png" class="card-photo" alt="Error">
+                                    </div>
+                                    <div>
+                                        <h3 class="mb-0 font-inter-medium">Mexica</h3>
+                                        <p class="mb-0 font-inter-regular">Горячая закуска с митболами
+                                            из говядины, томатами,
+                                            моцареллой и соусом чипотле
+                                        </p>
+
+                                        <h2 class="mb-0 font-inter-bold">53,000 UZS</h2>
+                                    </div>
+                                    <button type="button" class="btn"><span class="icon icon-plus bg-white"></span></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="menu-2 border-0 d-sm-none" data-toggle="collapse" data-target="#menu-2">
+                            Ko'proq ko'rish
+                        </div>
+                        <div class="collapse d-sm-none" id="menu-2">
+                            <div class="col-lg-6 col-md-10">
+                                <div class="card">
+                                    <div class="card-body d-flex">
+                                        <div>
+                                            <img src="asssets/images/pizza/mexica2.png" class="card-photo" alt="Error">
+                                        </div>
+                                        <div>
+                                            <h3 class="mb-0 font-inter-medium">Mexica</h3>
+                                            <p class="mb-0 font-inter-regular">Горячая закуска с митболами
+                                                из говядины, томатами,
+                                                моцареллой и соусом чипотле
+                                            </p>
+
+                                            <h2 class="mb-0 font-inter-bold">45,000 UZS</h2>
+                                        </div>
+                                        <button type="button" class="btn"><span class="icon icon-plus bg-white"></span></button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-10">
+                                <div class="card">
+                                    <div class="card-body d-flex">
+                                        <div>
+                                            <img src="asssets/images/pizza/hot-achchiko.png" class="card-photo" alt="Error">
+                                        </div>
+                                        <div>
+                                            <h3 class="mb-0 font-inter-medium">Apocalino <img src="asssets/icons/pepper.svg"
+                                                                                              alt="Error"></h3>
+                                            <p class="mb-0 font-inter-regular">Горячая закуска с митболами
+                                                из говядины, томатами,
+                                                моцареллой и соусом чипотле
+                                            </p>
+
+                                            <h2 class="mb-0 font-inter-bold">64,000 UZS</h2>
+                                        </div>
+                                        <button type="button" class="btn"><span class="icon icon-plus bg-white"></span></button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-10">
+                                <div class="card">
+                                    <div class="card-body d-flex">
+                                        <div>
+                                            <img src="asssets/images/pizza/mexica2.png" class="card-photo" alt="Error">
+                                        </div>
+                                        <div>
+                                            <h3 class="mb-0 font-inter-medium">Sosiskacho <img src="asssets/icons/leaf.svg"
+                                                                                               alt="Error"></h3>
+                                            <p class="mb-0 font-inter-regular">Горячая закуска с митболами
+                                                из говядины, томатами,
+                                                моцареллой и соусом чипотле
+                                            </p>
+
+                                            <h2 class="mb-0 font-inter-bold">45,000 UZS</h2>
+                                        </div>
+                                        <button type="button" class="btn"><span class="icon icon-plus bg-white"></span></button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-10">
+                                <div class="card">
+                                    <div class="card-body d-flex">
+                                        <div>
+                                            <img src="asssets/images/pizza/mexica.png" class="card-photo" alt="Error">
+                                        </div>
+                                        <div>
+                                            <h3 class="mb-0 font-inter-medium">Mexica</h3>
+                                            <p class="mb-0 font-inter-regular">Горячая закуска с митболами
+                                                из говядины, томатами,
+                                                моцареллой и соусом чипотле
+                                            </p>
+
+                                            <h2 class="mb-0 font-inter-bold">53,000 UZS</h2>
+                                        </div>
+                                        <button type="button" class="btn"><span class="icon icon-plus bg-white"></span></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div class="tab-pane fade" id="burger">
+                <section>
+                    <h1 class="mb-0 font-inter-bold">Burger</h1>
+
+                    <div class="row">
+                        <div class="col-lg-6 col-md-10">
+                            <div class="card">
+                                <div class="card-body d-flex">
+                                    <div>
+                                        <img src="asssets/images/burger/burger.png" class="card-photo" alt="Error">
+                                    </div>
+                                    <div>
+                                        <h3 class="mb-0 font-inter-medium">Cheeseburger <img src="asssets/icons/cheese.svg"
+                                                                                             alt="Error"></h3>
+                                        <p class="mb-0 font-inter-regular">Горячая закуска с митболами
+                                            из говядины, томатами,
+                                            моцареллой и соусом чипотле
+                                        </p>
+
+                                        <h2 class="mb-0 font-inter-bold">23,000 UZS</h2>
+                                    </div>
+                                    <div class="fire"><img src="asssets/icons/fire.svg" alt="Error"></div>
+                                    <button type="button" class="btn"><span class="icon icon-plus bg-white"></span></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-10">
+                            <div class="card">
+                                <div class="card-body d-flex">
+                                    <div>
+                                        <img src="asssets/images/burger/burger.png" class="card-photo" alt="Error">
+                                    </div>
+                                    <div>
+                                        <h3 class="mb-0 font-inter-medium">Chili burger <img src="asssets/icons/pepper.svg"
+                                                                                             alt="Error"></h3>
+                                        <p class="mb-0 font-inter-regular">Горячая закуска с митболами
+                                            из говядины, томатами,
+                                            моцареллой и соусом чипотле
+                                        </p>
+
+                                        <h2 class="mb-0 font-inter-bold">23,000 UZS</h2>
+                                    </div>
+                                    <button type="button" class="btn"><span class="icon icon-plus bg-white"></span></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-10">
+                            <div class="card">
+                                <div class="card-body d-flex">
+                                    <div>
+                                        <img src="asssets/images/burger/burger.png" class="card-photo" alt="Error">
+                                    </div>
+                                    <div>
+                                        <h3 class="mb-0 font-inter-medium">Hamburger</h3>
+                                        <p class="mb-0 font-inter-regular">Горячая закуска с митболами
+                                            из говядины, томатами,
+                                            моцареллой и соусом чипотле
+                                        </p>
+
+                                        <h2 class="mb-0 font-inter-bold">23,000 UZS</h2>
+                                    </div>
+                                    <div class="fire"><img src="asssets/icons/fire.svg" alt="Error"></div>
+                                    <button type="button" class="btn"><span class="icon icon-plus bg-white"></span></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-10 d-none d-sm-block">
+                            <div class="card">
+                                <div class="card-body d-flex">
+                                    <div>
+                                        <img src="asssets/images/burger/burger.png" class="card-photo" alt="Error">
+                                    </div>
+                                    <div>
+                                        <h3 class="mb-0 font-inter-medium">Double Burger</h3>
+                                        <p class="mb-0 font-inter-regular">Горячая закуска с митболами
+                                            из говядины, томатами,
+                                            моцареллой и соусом чипотле
+                                        </p>
+
+                                        <h2 class="mb-0 font-inter-bold">23,000 UZS</h2>
+                                    </div>
+                                    <button type="button" class="btn"><span class="icon icon-plus bg-white"></span></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="menu-2 border-0 d-sm-none" data-toggle="collapse" data-target="#menu-3">
+                            Ko'proq ko'rish
+                        </div>
+                        <div class="collapse d-sm-none" id="menu-3">
+                            <div class="col-lg-6 col-md-10">
+                                <div class="card">
+                                    <div class="card-body d-flex">
+                                        <div>
+                                            <img src="asssets/images/burger/burger.png" class="card-photo" alt="Error">
+                                        </div>
+                                        <div>
+                                            <h3 class="mb-0 font-inter-medium">Double Burger</h3>
+                                            <p class="mb-0 font-inter-regular">Горячая закуска с митболами
+                                                из говядины, томатами,
+                                                моцареллой и соусом чипотле
+                                            </p>
+
+                                            <h2 class="mb-0 font-inter-bold">23,000 UZS</h2>
+                                        </div>
+                                        <button type="button" class="btn"><span class="icon icon-plus bg-white"></span></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div class="tab-pane fade" id="kombo">
+                <section>
+                    <h1 class="mb-0 font-inter-bold">Kombo</h1>
+
+                    <div class="row">
+                        <div class="col-lg-6 col-md-10">
+                            <div class="card">
+                                <div class="card-body d-flex">
+                                    <div>
+                                        <img src="asssets/images/kombo/klap-kombo.png" class="card-photo" alt="Error">
+                                    </div>
+                                    <div>
+                                        <h3 class="mb-0 font-inter-medium">Kombo-1</h3>
+                                        <p class="mb-0 font-inter-regular">Горячая закуска с митболами
+                                            из говядины, томатами,
+                                            моцареллой и соусом чипотле
+                                        </p>
+
+                                        <h2 class="mb-0 font-inter-bold">25,000 UZS</h2>
+                                    </div>
+                                    <button type="button" class="btn"><span class="icon icon-plus bg-white"></span></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-10">
+                            <div class="card">
+                                <div class="card-body d-flex">
+                                    <div>
+                                        <img src="asssets/images/kombo/burger-kombo.png" class="card-photo" alt="Error">
+                                    </div>
+                                    <div>
+                                        <h3 class="mb-0 font-inter-medium">Kombo-2</h3>
+                                        <p class="mb-0 font-inter-regular">Горячая закуска с митболами
+                                            из говядины, томатами,
+                                            моцареллой и соусом чипотле
+                                        </p>
+
+                                        <h2 class="mb-0 font-inter-bold">23,000 UZS</h2>
+                                    </div>
+                                    <button type="button" class="btn"><span class="icon icon-plus bg-white"></span></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-10">
+                            <div class="card">
+                                <div class="card-body d-flex">
+                                    <div>
+                                        <img src="asssets/images/kombo/klap-kombo.png" class="card-photo" alt="Error">
+                                    </div>
+                                    <div>
+                                        <h3 class="mb-0 font-inter-medium">Kombo-3</h3>
+                                        <p class="mb-0 font-inter-regular">Горячая закуска с митболами
+                                            из говядины, томатами,
+                                            моцареллой и соусом чипотле
+                                        </p>
+
+                                        <h2 class="mb-0 font-inter-bold">30,000 UZS</h2>
+                                    </div>
+                                    <button type="button" class="btn"><span class="icon icon-plus bg-white"></span></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="menu-2 border-0 d-sm-none" data-toggle="collapse" data-target="#menu-4">
+                            Ko'proq ko'rish
+                        </div>
+                        <div class="collapse d-sm-none" id="menu-4">
+                            <h1 class="mb-0 font-inter-bold text-center my-5">Ushbu bo'limda mahsulot mavjud emas</h1>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div class="tab-pane fade" id="salat">
+                <h1 class="mb-0 font-inter-bold text-center my-5">Ushbu bo'limda mahsulot mavjud emas</h1>
+            </div>
+            <div class="tab-pane fade" id="sweets">
+                <h1 class="mb-0 font-inter-bold text-center my-5">Ushbu bo'limda mahsulot mavjud emas</h1>
+            </div>
+            <div class="tab-pane fade" id="drinks">
+                <section>
+                    <h1 class="mb-0 font-inter-bold">Ichimliklar</h1>
+
+                    <div class="row">
+                        <div class="col-lg-6 col-md-10">
+                            <div class="card">
+                                <div class="card-body d-flex">
+                                    <div>
+                                        <img src="asssets/images/drinks/sprite.png" class="card-photo" alt="Error">
+                                    </div>
+                                    <div>
+                                        <h3 class="mb-0 font-inter-medium">Sprite 1L</h3>
+                                        <p class="mb-0 font-inter-regular">Горячая закуска с митболами
+                                            из говядины, томатами,
+                                            моцареллой и соусом чипотле
+                                        </p>
+
+                                        <h2 class="mb-0 font-inter-bold">6,000 UZS</h2>
+                                    </div>
+                                    <button type="button" class="btn"><span class="icon icon-plus bg-white"></span></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-10">
+                            <div class="card">
+                                <div class="card-body d-flex">
+                                    <div>
+                                        <img src="asssets/images/drinks/cola.png" class="card-photo" alt="Error">
+                                    </div>
+                                    <div>
+                                        <h3 class="mb-0 font-inter-medium">Coca cola 1,5L</h3>
+                                        <p class="mb-0 font-inter-regular">Горячая закуска с митболами
+                                            из говядины, томатами,
+                                            моцареллой и соусом чипотле
+                                        </p>
+
+                                        <h2 class="mb-0 font-inter-bold">9,000 UZS</h2>
+                                    </div>
+                                    <button type="button" class="btn"><span class="icon icon-plus bg-white"></span></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-10">
+                            <div class="card">
+                                <div class="card-body d-flex">
+                                    <div>
+                                        <img src="asssets/images/drinks/fanta.png" class="card-photo" alt="Error">
+                                    </div>
+                                    <div>
+                                        <h3 class="mb-0 font-inter-medium">Fanta 1L</h3>
+                                        <p class="mb-0 font-inter-regular">Горячая закуска с митболами
+                                            из говядины, томатами,
+                                            моцареллой и соусом чипотле
+                                        </p>
+
+                                        <h2 class="mb-0 font-inter-bold">6,000 UZS</h2>
+                                    </div>
+                                    <button type="button" class="btn"><span class="icon icon-plus bg-white"></span></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="menu-2 border-0 d-sm-none" data-toggle="collapse" data-target="#menu-5">
+                            Ko'proq ko'rish
+                        </div>
+                        <div class="collapse d-sm-none" id="menu-5">
+                            <h1 class="mb-0 font-inter-bold text-center my-5">Ushbu bo'limda mahsulot mavjud emas</h1>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <section class="info">
+        <div class="container">
+            <div class="row">
+                <img src="asssets/images/line-full.png" class="big-line-1 d-sm-none" alt="Error">
+                <img src="asssets/images/phone.png" class="big-phone-1 d-sm-none" alt="Error">
+                <div class="col-sm-7">
+                    <h1 class="mb-0 font-inter-bold text-white">Mobil ilovamiz
+                        orqali buyurtma
+                        berish yanada osonroq</h1>
+
+                    <a href="https://google.com">
+                        <span class="icon icon-play bg-white"></span> Google play
+                    </a>
+                    <a href="https://apple.com">
+                        <span class="icon icon-apple bg-white"></span> App store
+                    </a>
+                </div>
+            </div>
+            <img src="asssets/images/line.png" class="big-line" alt="Error">
+            <img src="asssets/images/phone.png" class="big-phone" alt="Error">
+        </div>
+    </section>
+</main>
+
+<footer>
+    <div class="container d-sm-none">
+        <div class="row">
+            <div class="col-12 d-flex justify-content-center">
+                <img src="asssets/images/logo.png" alt="Error">
+            </div>
+            <div class="asosiy border-0 d-flex justify-content-center align-items-center" data-toggle="collapse" data-target="#menu-6">
+                <div class="justify-content-center"><p>Asosiy</p></div>
+                <div class="vektor"><img src="asssets/icons/Vector%2037.svg" alt="Error"></div>
+            </div>
+            <div class="collapse m-auto" id="menu-6">
+                <ul class="nav flex-column text-center">
+                    <li class="nav-item"><a href="#" class="nav-link">Kompaniya haqida</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Filiallar</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Bolalar uchun</a></li>
+                </ul>
+            </div>
+            <div class="asosiy border-0 d-flex justify-content-center align-items-center" data-toggle="collapse" data-target="#menu-7">
+                <div class="justify-content-center"><p>Qo'shimcha</p></div>
+                <div class="vektor"><img src="asssets/icons/Vector%2037.svg" alt="Error"></div>
+            </div>
+            <div class="collapse m-auto" id="menu-7">
+                <ul class="nav flex-column text-center">
+                    <li class="nav-item"><a href="#" class="nav-link">Menyu</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Bonusli karta</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Bu qanday ishlaydi?</a></li>
+                </ul>
+            </div>
+            <div class="col-12">
+                <h2 class="mb-0 font-inter-regular">(+998 71) 200-54-00</h2>
+            </div>
+            <div class="col-12">
+                <p class="mb-0">100011, Toshkent sh. Shayxontohur tumani,
+                    Zarqaynar ko’chasi, 3B-uy</p>
+            </div>
+            <div class="col-12 social d-flex justify-content-around align-items-center">
+                <a href="#"><span class="icon icon-youtube"></span></a>
+                <a href="#"><span class="icon icon-facebook"></span></a>
+                <a href="#"><span class="icon icon-instagram"></span></a>
+                <a href="#"><span class="icon icon-telegram"></span></a>
+                <a href="#"><span class="icon icon-tiktok"></span></a>
+            </div>
+            <div class="col-12 d-flex justify-content-center mt-5">
+                <div>© Maxway, 2020</div>
+            </div>
+        </div>
+    </div>
+    <div class="container d-none d-sm-block">
+        <div class="row">
+            <div class="col-sm-2">
+                <img src="asssets/images/logo.png" alt="">
+            </div>
+            <div class="col-sm-2 col-md-2 col-lg-2">
+                <h5 class="mb-0 font-inter-semi-bold">Asosiy</h5>
+
+                <ul class="nav flex-column">
+                    <li class="nav-item"><a href="#" class="nav-link">Kompaniya haqida</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Filiallar</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Bolalar uchun</a></li>
+                </ul>
+            </div>
+            <div class="col-sm-2 col-md-2 col-lg-2">
+                <h5 class="mb-0 font-inter-semi-bold">Qo'shimcha</h5>
+
+                <ul class="nav flex-column">
+                    <li class="nav-item"><a href="#" class="nav-link">Menyu</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Bonusli karta</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Bu qanday ishlaydi?</a></li>
+                </ul>
+            </div>
+            <div class="col-sm-3 col-md-3 col-lg-3 offset-md-3 offset-lg-3">
+                <h5 class="mb-0 font-inter-semi-bold">Biz bilan aloqa</h5>
+
+                <a href="tel:+998712005400" class="text-decoration-none font-inter-regular">(+998 71) 200-54-00</a>
+
+                <p class="mb-0 font-inter-regular">100011, Toshkent sh. Shayxontohur tumani,
+                    Zarqaynar ko’chasi, 3B-uy</p>
+            </div>
+
+        </div>
+
+        <div class="line"></div>
+
+        <div class="d-flex justify-content-between">
+            <div>© Maxway, 2020</div>
+            <div>
+                <a href="#"><span class="icon icon-youtube"></span></a>
+                <a href="#"><span class="icon icon-facebook"></span></a>
+                <a href="#"><span class="icon icon-instagram"></span></a>
+                <a href="#"><span class="icon icon-telegram"></span></a>
+                <a href="#"><span class="icon icon-tiktok"></span></a>
+            </div>
+        </div>
+
+    </div>
+</footer>
+
+
+<script src="js/jquery-3.3.1.slim.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.js"></script>
+</body>
+</html>
